@@ -1,0 +1,71 @@
+/* CSS Document */
+body{
+	margin: 0;
+}
+.menuBar{
+	background-image:url(img/Head%20web/innovation.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	align-content:flex-top;
+	height:400px;
+	margin-bottom: 30px;
+}
+
+h1{
+	font-family:DB Adman;
+	color:#AD2524;
+	letter-spacing: 6px;
+	font-size: 26px;
+}
+
+.container{
+	padding-top:0;
+	margin:0 auto;
+	width: 1000px;
+	height:400px;
+}
+.containerI{
+	padding-top:0;
+	margin:0 auto;
+	width: 1000px;
+	height:200px;
+}
+.containerB{
+	padding-top:0;
+	width: 1000px;
+	height:450px;
+}
+.text{
+	font-family:CordiaUPC;
+	font-size:21px;
+	text-align:center;
+	float: left;
+	max-width: 330px;
+	margin-right: 113px;
+}
+.imgL{
+	width: 300px;
+	float: left;
+}
+.imgR{
+	width: 300px;
+	float: right;
+}
+.text:last-child{
+	margin-right: 0;
+}
+
+.textR{
+	font-family:CordiaUPC;
+	font-size:21px;
+	text-align:center;
+	max-width: 330px;
+	float: right;
+}
+.textL{
+	font-family:CordiaUPC;
+	font-size:21px;
+    max-width:330;
+	text-align: center;
+	float: left
+}
