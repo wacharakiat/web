@@ -1,0 +1,33 @@
+body{
+	margin:0px;
+}
+.menuBar{
+	background-image:url(img/Head%20web/camera.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	align-content:flex-top;
+	height:400px;
+}
+
+.pop:first-child{
+	margin-top: 20px;
+}
+
+.pop p{
+	font-family:DB ComYard;
+	font-style: italic;
+	font-size:24px;
+	color:#AD1616;
+	text-align:right;
+	padding-right:100px;
+	margin:0;
+}
+
+.pop a{
+	text-decoration: none;
+}
+
+.pop p:hover{
+	color:#545353;
+	text-decoration:underline;
+}

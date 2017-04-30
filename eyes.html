@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="eyes Design.css">
+<link rel="stylesheet" type="text/css" href="mainD.css">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<!--head-->
+<div align="center">
+   <div class="menuBar" onMouseOver="" >
+		<div id="logo" align="center">
+			<img src="img/picture/new logo-01.png" width="100px">
+		</div> <!--#logo-->
+   <ul >
+    	<li><a href="home.html">Home</a></li>
+        <li><a href="beginning.html">Our King's beginning</a></li>
+        <li><a href="innovation.html">Our King's innovation</a></li>
+        <li><a href="eyes.html">Our King's eyes</a></li>
+    </ul>
+   </div> <!--.menubar-->
+</div>
+
+<div class="mainCenter">
+	<h1>ภาพของพ่อ</h1>
+
+<h2>ภาพแนววิจิตรศิลป์</h2>
+
+<div class="slideshow-container">
+	<div class="mySlides fade">
+    	<img src="img/card/portrait1-01.png" style="width:513px">
+	</div>
+
+	<div class="mySlides fade">
+    	<img src="img/card/portrait1-10-01.png" style="width:513px">
+	</div>
+
+	<div class="mySlides fade">
+    	<img src="img/card/portrait2-01.png" style="width:513px">
+	</div>
+  
+	<div class="mySlides fade">
+    	<img src="img/card/portrait3-01.png" style="width:513px">
+	</div>
+    
+    <div class="mySlides fade">
+    	<img src="img/card/portrait4-01.png" style="width:513px">
+  	</div>
+	
+    <div class="mySlides fade">
+    	<img src="img/card/portrait5-01.png" style="width:513px">
+  	</div>
+    
+    <div class="mySlides fade">
+    	<img src="img/card/portrait6-01.png" style="width:513px">
+  	</div>
+    
+    <div class="mySlides fade">
+    	<img src="img/card/portrait7-01.png" style="width:513px">
+  	</div>
+    
+    <div class="mySlides fade">
+    	<img src="img/card/portrait8-01.png" style="width:513px">
+  	</div>
+    
+    <div class="mySlides fade">
+    	<img src="img/card/portrait9-01.png" style="width:513px">
+  	</div>
+    
+    <div class="mySlides fade">
+    	<img src="img/card/portrait10-01.png" style="width:513px">
+  	</div>
+    
+    <div class="mySlides fade">
+    	<img src="img/card/portrait11-01.png" style="width:513px">
+  	</div>
+    
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+	<h3>ภาพแสดงพระปณิธานในการพัฒนาประเทศ</h3>
+    
+<div class="slideshow-containerI">
+
+<div class="mySlidesI fade">
+  <img src="img/card/project1-01.png" style="width:100%">
+</div>
+
+<div class="mySlidesI fade">
+  <img src="img/card/project1-13-01.png" style="width:100%">
+</div>
+
+<div class="mySlidesI fade">
+  <img src="img/card/project2-01.png" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlidesI(-1)">&#10094;</a>
+<a class="next" onclick="plusSlidesI(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div class="footerbar">เว็บไซต์นี้เป็นผลงานของนักศึกษาในวิชาออกแบบเว็บไซต์ ภาควิชานิเทศศิลป์ คณะสถาปัตยกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง </div>
+</div>
+
+
+<script>
+<!--slide1-->
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  	if (n > slides.length) {slideIndex = 1}    
+  	if (n < 1) {slideIndex = slides.length}
+  	for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  	}
+  slides[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<!--slide2-->
+<script>
+var slideIndexI = 1;
+showSlidesI(slideIndexI);
+
+function plusSlidesI(n) {
+  showSlidesI(slideIndexI += n);
+}
+
+function currentSlideI(n) {
+  showSlidesI(slideIndexI = n);
+}
+
+function showSlidesI(n) {
+  var i;
+  var slidesI = document.getElementsByClassName("mySlidesI");
+  
+  if (n > slidesI.length) {slideIndexI = 1}    
+  if (n < 1) {slideIndexI = slidesI.length}
+  for (i = 0; i < slidesI.length; i++) {
+      slidesI[i].style.display = "none";  
+  }
+  slidesI[slideIndexI-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

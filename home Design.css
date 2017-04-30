@@ -1,0 +1,51 @@
+/* CSS Document */
+@font-face {
+    font-family:DB ComYard;
+    src:url(font/DB ComYard X Bd.ttf);
+}
+body{
+	background-image:url(img/picture/home.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+#menuBar #border{
+	border-bottom:1px solid #AD2524;
+	width: 16px;
+}
+
+#menuBar{
+	margin-right:50px;
+}
+
+#menuBar ul li{
+	text-align:center;
+	list-style: none;
+	display: block;
+}
+
+#menuBar a:hover{
+	color:#545353;
+	text-decoration:underline;
+}
+
+#menuBar a{
+	font-family:"DB ComYard";
+	font-size: 1.6em;
+	color: #AD2524;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-left: 0;
+}
+
+.footerbarH{
+	font-family:CordiaUPC;
+	font-size: 100%;
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: center;
+}
